@@ -138,11 +138,6 @@
 		        }
 		        .sp-nav{
 		        	display: none;
-				padding:10px;
-				background: skyblue;
-				width: fit-content;
-				position: sticky;
-				top: 0;
 		        }
 			#nav-drawer {
 			  position: relative;
@@ -243,9 +238,8 @@
 		        }
 		        @media screen and (max-width: 768px){
 		        	.sp-nav{
-		        		width:100%;
 		        		display: block!important;
-		        		position: sticky;
+		        		position: fixed;
 		        		top: 0;
 		        	}
 		        	.top-nav{
@@ -471,12 +465,29 @@
 		      <div id="nav-content">
 			<div id="content-head">MENU</div>
 			<div id="content-body">
-			  <div class="content-case">
-			    TOP
-			  </div>
-			  <div class="content-case">
-			    TOP
-			  </div>
+			  <a href="#"><div class="content-case">
+				  TOP
+			  </div></a>
+			<a href="#sec1">
+				  <div class="content-case">
+			    		About
+				  </div>
+			</a>
+			<a href="#sec2">
+				<div class="content-case">
+					Spec
+				</div>
+			</a>
+			<a href="#sec3">
+				<div class="content-case">
+					Member
+				</div>
+			</a>
+			<a href="#sec4">
+				<div class="content-case>
+					Download
+				</div>
+			</a>
 		    </div>
 		  </div>
 		</nav>
