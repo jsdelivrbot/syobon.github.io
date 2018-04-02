@@ -189,9 +189,10 @@
 		
 		/*DLコンテナ―*/
 		.dl-c{
-			width:calc(80% / 3);
-			margin: 0;
-			padding: 0;
+			float: left;
+		}
+		.dl-cs{
+			overflow: hidden;
 		}
 	        /*もしかしたら実装するかもしれないTOPへ戻るボタン*/
 	        #gotop{
@@ -460,17 +461,19 @@
 	        </div>
 		<div id="sec4" class="md">
 			<h2>Download</h2>
-			<div class="31 dl-c">
-				<p>Syobon-Qt(Wallet)</p>
-				<p>DLはこちらから</p>
-			</div>
-			<div class="32 dl-c">
-				<p>ホワイトペーパー(pdf)</p>
-				<p>閲覧・DLはこちらから</p>
-			</div>
-			<div class="33 dl-c">
-				<p>syobon miner</p>
-				<p>DLはこちらから</p>
+			<div class="dl-cs">
+				<div class="dl-c">
+					<p>Syobon-Qt(Wallet)</p>
+					<p>DLはこちらから</p>
+				</div>
+				<div class="dl-c">
+					<p>ホワイトペーパー(pdf)</p>
+					<p>閲覧・DLはこちらから</p>
+				</div>
+				<div class="dl-c">
+					<p>syobon miner</p>
+					<p>DLはこちらから</p>
+				</div>
 			</div>
 		</div>
         </div>
