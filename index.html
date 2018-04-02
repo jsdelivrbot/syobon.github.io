@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
         <script type="text/javascript" src="/js/temp.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <style>
         /*----------
         index→あてにならない
@@ -188,12 +189,20 @@
 	        }
 		
 		/*DLコンテナ―*/
-		.dl-c{
-			float: left;
-			margin-right: 2.5em;
+		.avater{
+			max-width: 250px;
+			border-radius: 50%;
 		}
-		.dl-cs{
-			overflow: hidden;
+		.dl-c , .dl-cc {
+		    float: left;
+		    margin-right: 2.5em;
+		}
+		.dl-cs , .dl-cx {
+		    overflow: hidden;
+		}
+		.disp{
+			text-align: center;
+			font-size: 20px;
 		}
 	        /*もしかしたら実装するかもしれないTOPへ戻るボタン*/
 	        #gotop{
@@ -414,51 +423,25 @@
 	        </div>
 	        <div id="sec3" class="md">
 	        	<h2>Member</h2>
-	        	<div class="scroll">
-	        	<table class="membar">
-	        		<thead>
-	        			<tr>
-	        				<th>
-	        					名前
-	        				</th>
-	        				<th>
-	        					Twitter ID
-	        				</th>
-	        				<th>
-	        					役職
-	        				</th>
-	        			</tr>
-	        		</thead>
-	        		<tbody>
-	        			<tr>
-	        				<th>
-	        					DAFU
-	        				</th>
-	        				<td>
-	        					<a href="https://twitter.com/kikiriko200" target="_blank">
-	        						@kikiriko200
-	        					</a>
-	        				</td>
-	        				<td>
-	        					null
-	        				</td>
-	        			</tr>
-	        			<tr>
-	        				<th>
-	        					DAFU
-	        				</th>
-	        				<td>
-	        					<a href="https://twitter.com/kikiriko200" target="_blank">
-	        						@kikiriko200
-	        					</a>
-	        				</td>
-	        				<td>
-	        					null
-	        				</td>
-	        			</tr>
-	        		</tbody>
-	        	</table>
-	        	</div>
+			<div class="dl-cx">
+				<div class="dl-cc">
+					<img src="https://pbs.twimg.com/profile_images/970270008013086720/7aHS13gn_400x400.jpg" class="avater" alt="Y">
+					<p class="disp"><i class="fab fa-twitter-square"></i>&nbsp;Y</p>
+				</div>
+				<div class="dl-cc">
+					<img src="https://pbs.twimg.com/profile_images/944108390774534145/Z9OCjlwa_400x400.jpg" class="avater" alt="DAFU">
+					<p class="disp"><i class="fab fa-twitter-square"></i>&nbsp;DAFU</p>
+				</div>
+				<div class="dl-cc">
+					<img src="https://pbs.twimg.com/profile_images/980291302691520513/bbmXjEtG_400x400.png" class="avater" alt="TEITOKU'n">
+					<p class="disp"><i class="fab fa-twitter-square"></i>&nbsp;TEITOKU'n</p>
+				</div>
+				<div class="dl-cc">
+					<img src="https://pbs.twimg.com/profile_images/957875210509627392/kUWRLdrs_400x400.jpg" class="avater" alt="リラっち>
+					<p class="disp"><i class="fab fa-twitter-square"></i>&nbsp;リラっち</p>
+				</div>
+			</div>
+
 	        </div>
 		<div id="sec4" class="md">
 			<h2>Download</h2>
