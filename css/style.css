@@ -222,7 +222,7 @@
     	/*--------//header--------*/
     /*コンテンツここから*/
 	    #contents{
-	    	/*min-height:1000px;*/
+	    	min-height:500px;
 	    	margin: 0 auto;
 	    	margin-bottom: 100px;
 	    	width: 80%;
@@ -355,6 +355,15 @@
 	        h2:first-letter {
 	  			font-size: 26px;
 			}
+		/*各ページ見出し*/
+		.page-title{
+			text-align: center;
+			font-size: 45px;
+			border: 2px solid;
+		}
+		.page-title:first-letter {
+		    font-size: 45px;
+		}
 	        #main{
 	            width: 80%;
 		    margin: 0 auto;
