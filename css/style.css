@@ -401,5 +401,8 @@
                     margin-right: 0;
                     margin-left: 0;
                 }
+                .inner{
+                    padding: 0;
+                }
 	        }
 	    /*全般ここまで*/
