@@ -1,5 +1,5 @@
 $(function(){
-  $("#header").load("/temp/header.html");
-  $("#footer").load("/temp/footer.html");
+  $("#header").load("/syobon.github.io/temp/header.html");
+  $("#footer").load("/syobon.github.io/temp/footer.html");
 });
 
