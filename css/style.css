@@ -332,11 +332,15 @@
 	        a{
 	            color: orange;
 	        }
-		tr:nth-child(2n){
+		tbody tr:nth-child(2n){
 			background: #efefef;
 		}
-		tr:nth-child(2n+1){
+		tbody tr:nth-child(2n+1){
 			baackground: #efef;
+		}
+		.s-list td{
+			border-right: 1px solid #efefef;
+			border-left: 1px solid #efefef;
 		}
 	        h2{
 	        	    margin-bottom: 15px;
