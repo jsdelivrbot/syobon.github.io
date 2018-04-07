@@ -1,14 +1,3 @@
-        /*----------
-        index→あてにならない
-        1.font
-        2.body
-        3.header
-        4.コンテンツ
-        5.main
-        6.side
-        7.footer
-        8.レスポンシブ設定
-        ---------*/
         /*--------font--------*/
 	        @import url(https://fonts.googleapis.com/css?family=Roboto);
 	        @import url(https://fonts.googleapis.com/css?family=Montserrat);
@@ -299,7 +288,6 @@
 					font-weight: bold;
 					vertical-align: top;
 					border-bottom: 1px solid #ccc;
-					background: #efefef;
 					white-space: nowrap;
 				}
 				table.membar td,table.spec-t td {
@@ -344,16 +332,28 @@
 	        a{
 	            color: orange;
 	        }
+		tr:nth-child(2n){
+			background: #efefef;
+		}
+		tr:nth-child(2n+1){
+			baackground: #efef;
+		}
 	        h2{
-	        	margin-bottom: 15px;
+	        	    margin-bottom: 15px;
 			    border-bottom: #000000 1px dotted;
 			    color: #000000;
 			    font-size: 18px;
 			    font-weight: normal;
 	        }
+		.no-border{
+			border: 0;
+		}
 	        /*各見出し1文字目拡大*/
 	        h2:first-letter {
 	  			font-size: 26px;
+			}
+		.no-big:first-letter{
+				font-size: inherit;
 			}
 		/*各ページ見出し*/
 		.page-title{
@@ -363,6 +363,11 @@
 		}
 		.page-title:first-letter {
 		    font-size: 45px;
+		}
+		/*記事一覧*/
+		ul.list{
+			border-bottom: 1px dotted black;
+			list-style: decimal-leading-zero;
 		}
 	        #main{
 	            width: 80%;
