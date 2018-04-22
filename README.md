@@ -12,7 +12,7 @@ Syobon's HP
 
 **GTmetrixで100%/100%達成**
 
-やったこと
+**やったこと**
 
 1. HTML以外のファイルのCDN化([RawGit]<https://rawgit.com/>使用)
 
