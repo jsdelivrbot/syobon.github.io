@@ -8,7 +8,7 @@ Syobon's HP
 
 `/devs/`がパス。
 
-`/devs/mini/`でHTMLの縮小版利用可能。
+`/devs/mini/`でHTMLの縮小版利用可能。(速度差はほぼ無し)
 
 **GTmetrixで100%/100%達成**
 [スクショ](https://cdn.discordapp.com/attachments/429938705726308355/437433600443547654/unknown.png)
