@@ -11,6 +11,7 @@ Syobon's HP
 `/devs/mini/`でHTMLの縮小版利用可能。
 
 **GTmetrixで100%/100%達成**
+([スクショ]<https://cdn.discordapp.com/attachments/429938705726308355/437433600443547654/unknown.png>
 
 **やったこと**
 
