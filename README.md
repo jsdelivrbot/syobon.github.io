@@ -11,17 +11,17 @@ Syobon's HP
 `/devs/mini/`でHTMLの縮小版利用可能。
 
 **GTmetrixで100%/100%達成**
-([スクショ]<https://cdn.discordapp.com/attachments/429938705726308355/437433600443547654/unknown.png>
+[スクショ](https://cdn.discordapp.com/attachments/429938705726308355/437433600443547654/unknown.png)
 
 **やったこと**
 
-1. HTML以外のファイルのCDN化([RawGit]<https://rawgit.com/>使用)
+1. HTML以外のファイルのCDN化([RawGit](https://rawgit.com/)使用)
 
 2. CSS/JS/画像ファイルなどの縮小(各minifer使用)
 
 3. 使用しないJSファイルのコメントアウト(Fontawesome)
 
-3. favicon画像の[imgur]<https://imgur.com>使用
+3. favicon画像の[imgur](https://imgur.com)使用
 (キャッシュの都合でrawgitはスコアを減点されるため。)
 
 これだけでフルスコアいけたよv('ω')v
