@@ -1,6 +1,6 @@
 # syobon.github.io
 Syobon's HP
-Copyright (c) 2018 Syobon Debelopment project,DAFU
+Copyright (c) 2018 SYOBON Development Project,DAFU
 ## 概要
 仮想通貨 Syobon(SBN)についてのHP.
 
