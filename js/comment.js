@@ -23,7 +23,7 @@ window.onload = function() {
   console.log('select:', form._select.value); //=> select: bar
   
   // textarea
-  form._ta.value = 'コード書きたい';
+  form._ta.value = 'コメント';
   console.log('textarea:', form._ta.value); //=> textarea: コード書きたい
   
   // file
